@@ -1,0 +1,93 @@
+{
+  "sheets": [
+    {
+      "name": "Penghuni",
+      "headers": [
+        "nomor_kamar",
+        "nama",
+        "nomor_hp",
+        "tanggal_masuk",
+        "status",
+        "deposit",
+        "harga_kamar"
+      ]
+    },
+    {
+      "name": "Kamar",
+      "headers": [
+        "nomor_kamar",
+        "lantai",
+        "ukuran",
+        "harga",
+        "deposit",
+        "biaya_admin",
+        "fasilitas",
+        "foto_url",
+        "status"
+      ]
+    },
+    {
+      "name": "Pembayaran",
+      "headers": [
+        "tanggal",
+        "nomor_kamar",
+        "nama_penghuni",
+        "jumlah",
+        "bukti_url",
+        "status",
+        "catatan"
+      ]
+    },
+    {
+      "name": "Laporan",
+      "headers": [
+        "tanggal",
+        "nomor_kamar",
+        "nama_penghuni",
+        "jenis_laporan",
+        "deskripsi",
+        "foto_url",
+        "status",
+        "tindakan",
+        "biaya_perbaikan"
+      ]
+    },
+    {
+      "name": "Tamu",
+      "headers": [
+        "tanggal",
+        "nomor_kamar",
+        "nama_penghuni",
+        "nama_tamu",
+        "nomor_hp_tamu",
+        "jam_masuk",
+        "jam_keluar",
+        "durasi_jam",
+        "status"
+      ]
+    },
+    {
+      "name": "Checkout",
+      "headers": [
+        "tanggal_request",
+        "nomor_kamar",
+        "nama_penghuni",
+        "tanggal_keluar",
+        "deposit_kembali",
+        "status",
+        "catatan"
+      ]
+    },
+    {
+      "name": "Broadcast",
+      "headers": [
+        "tanggal",
+        "pengirim",
+        "tipe_penerima",
+        "jumlah_penerima",
+        "pesan",
+        "status"
+      ]
+    }
+  ]
+}
